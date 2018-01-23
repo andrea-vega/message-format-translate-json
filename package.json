@@ -1,11 +1,12 @@
 {
   "name": "message-format-translate-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translates a json file with messageformat values into the specified languages",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": "message-format-translate-json",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrea-vega/message-format-translate-json.git"
