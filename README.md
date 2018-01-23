@@ -5,9 +5,14 @@ This script is useful while in development of i81n MessageFormat documents to ge
 
 Values are aggressively cached to prevent duplicate calls.
 
+## Install
+```
+npm install -g message-format-translate-json
+```
+
 ## Example
 ```
-node index.js --lang=es,de,ja,pt,zh-CN
+message-format-translate-json --lang=es,de,ja,pt,zh-CN
 
 Options:
   --lang              Comma separated list of language codes supported by google translate
