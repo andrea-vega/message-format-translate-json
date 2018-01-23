@@ -7,10 +7,10 @@ Values are aggressively cached to prevent duplicate calls.
 
 ## Example
 ```
-node index.js --languages=es,de,ja,pt,zh-CN
+node index.js --lang=es,de,ja,pt,zh-CN
 
 Options:
-  --languages         Comma separated list of language codes supported by google translate
+  --lang              Comma separated list of language codes supported by google translate
   --url               The url that contains the source messages to translate
   --exclude           Regex of keys to skip when translating
   --dir               Output directory (default is current directory)
