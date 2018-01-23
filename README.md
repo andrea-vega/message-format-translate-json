@@ -14,6 +14,6 @@ Options:
   --url               The url that contains the source messages to translate
   --exclude           Regex of keys to skip when translating
   --dir               Output directory (default is current directory)
-  --cache             Cache directory (default to ./cache)
+  --cacheDir          Cache directory (default to ./cache)
 
 ```
