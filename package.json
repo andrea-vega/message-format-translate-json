@@ -1,0 +1,33 @@
+{
+  "name": "message-format-translate-json",
+  "version": "1.0.0",
+  "description": "Translates a json file with messageformat values into the specified languages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrea-vega/message-format-translate-json.git"
+  },
+  "keywords": [
+    "messageformat",
+    "translate-json"
+  ],
+  "author": "Andrea Vega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrea-vega/message-format-translate-json/issues"
+  },
+  "homepage": "https://github.com/andrea-vega/message-format-translate-json#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "google-translate-api": "^2.3.0",
+    "intl-messageformat-parser": "^1.4.0",
+    "lodash": "^4.17.4",
+    "nconf": "^0.10.0",
+    "ngconf": "^0.1.1",
+    "request-promise": "^4.2.2",
+    "translate-json": "^2.1.2"
+  }
+}
